@@ -15,7 +15,7 @@
 ![horizontal_components](horizontal_components.png)
 <br/>Интерфейс приложения<br/>
 ![start](start.png)
-<br/>Расчёт значения по алгоритму в вертикальной ориентации экрана <= 5<br/>
+<br/>Расчёт значения по алгоритму в вертикальной ориентации экрана<br/>
 ![vertical](vertical.png)
 <br/>Интерфейс приложения в горизонтальной ориентации экрана<br/>
 ![horizontal](horizontal.png)
