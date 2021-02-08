@@ -1,0 +1,3 @@
+rootProject.name = "BMK01"
+include ':app'
+include ':bmk01_calculator'
