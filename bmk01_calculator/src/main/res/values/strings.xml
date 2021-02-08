@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BMK Calculator</string>
+    <string name="imageView_description">Формула</string>
+    <string name="editTextA_hint">a =</string>
+    <string name="editTextB_hint">b =</string>
+    <string name="editTextC_hint">c =</string>
+    <string name="editTextX_hint">x =</string>
+    <string name="editTextD_hint">d =</string>
+    <string name="textViewY_hint">y =</string>
+    <string name="textView_Answer_text">Ответ: </string>
+    <string name="textView_text">Формула </string>
+    <string name="button_solve_text">Решить</string>
+    <string name="button_clear_text">Очисить</string>
+</resources>
