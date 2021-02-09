@@ -10,5 +10,5 @@
     <string name="textView_Answer_text">Ответ: </string>
     <string name="textView_text">Формула </string>
     <string name="button_solve_text">Решить</string>
-    <string name="button_clear_text">Очисить</string>
+    <string name="button_clear_text">Очистить</string>
 </resources>
