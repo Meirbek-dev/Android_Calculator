@@ -10,7 +10,6 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginVertical="5dp"
@@ -20,12 +19,12 @@
         android:textSize="24sp" />
 
     <ImageView
-        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginVertical="5dp"
         android:contentDescription="@string/imageView_description"
-        app:srcCompat="@drawable/primer" />
+        app:srcCompat="@drawable/primer"
+        tools:ignore="ImageContrastCheck" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,7 +34,7 @@
         <EditText
             android:id="@+id/editTextA"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_marginVertical="5dp"
             android:layout_weight="1"
             android:ems="10"
@@ -47,7 +46,7 @@
         <EditText
             android:id="@+id/editTextB"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_marginVertical="5dp"
             android:layout_weight="1"
             android:ems="10"
@@ -60,7 +59,7 @@
     <EditText
         android:id="@+id/editTextX"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginVertical="5dp"
         android:ems="10"
         android:hint="@string/editTextX_hint"
@@ -76,7 +75,7 @@
         <EditText
             android:id="@+id/editTextC"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_marginVertical="5dp"
             android:layout_weight="1"
             android:ems="10"
@@ -88,7 +87,7 @@
         <EditText
             android:id="@+id/editTextD"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="48dp"
             android:layout_marginVertical="5dp"
             android:layout_weight="1"
             android:ems="10"
@@ -104,12 +103,12 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/textView_Answer"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="@string/textView_Answer_text"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            tools:ignore="TextContrastCheck" />
 
         <TextView
             android:id="@+id/textViewY"
@@ -128,7 +127,6 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button_clear"
             style="?attr/borderlessButtonStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -142,7 +140,6 @@
             android:textSize="24sp" />
 
         <Button
-            android:id="@+id/button_solve"
             style="?attr/borderlessButtonStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

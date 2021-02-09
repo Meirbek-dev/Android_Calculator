@@ -1,8 +1,5 @@
 package kz.bmk01.calculator;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
@@ -10,14 +7,13 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 public class MainActivity extends AppCompatActivity {
 
-    TextView textViewY;
-    EditText A;
-    EditText B;
-    EditText C;
-    EditText D;
-    EditText X;
+    private TextView textViewY;
+    private EditText A, B, C, D, X;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -9,7 +9,6 @@
     android:stretchColumns="*">
 
     <ImageView
-        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="40sp"
@@ -94,7 +93,6 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:id="@+id/textView_Answer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/textView_Answer_text"
@@ -118,7 +116,6 @@
         android:layout_height="wrap_content">
 
         <Button
-            android:id="@+id/button_clear"
             style="?attr/borderlessButtonStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -130,7 +127,6 @@
             android:textSize="16sp" />
 
         <Button
-            android:id="@+id/button_solve"
             style="?attr/borderlessButtonStyle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
